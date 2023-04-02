@@ -34,11 +34,11 @@ public class Programa {
                 CensoAltura censoAltura = new CensoAltura();
                 censoAltura.simularCenso();
                 break;
-            /* case 4:
-                RHEmpresa rhEmpresa = new RHEmpresa();
-                rhEmpresa.cadastrarFuncionario();
+            case 4:
+                RhEmpresa rhEmpresa = new RhEmpresa();
+                rhEmpresa.simularRh(scanner);
                 break;
-            case 5:
+            /* case 5:
                 ClubeCampo clubeCampo = new ClubeCampo();
                 clubeCampo.cadastrarMembro();
                 break;
@@ -58,5 +58,6 @@ public class Programa {
                 System.out.println("Questão " + Integer.toString(questao) + " inválida!");
                 break;
         }
+        scanner.close();
     }
 }

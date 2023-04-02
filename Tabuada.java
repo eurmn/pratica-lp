@@ -16,8 +16,6 @@ public class Tabuada {
         System.out.print("Digite o número: ");
         int number = scanner.nextInt();
 
-        scanner.close();
-
         switch (type) {
             case 1:
                 for (int i = 1; i <= 10; i++) {

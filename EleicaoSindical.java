@@ -19,8 +19,6 @@ public class EleicaoSindical {
         System.out.print("Digite a quantidade de votos brancos: ");
         int votosBrancos = scanner.nextInt();
 
-        scanner.close();
-
         int votosValidos = votosA + votosB + votosC;
         int votosTotais = votosValidos + votosNulos + votosBrancos;
 
