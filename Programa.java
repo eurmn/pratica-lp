@@ -38,11 +38,11 @@ public class Programa {
                 RhEmpresa rhEmpresa = new RhEmpresa();
                 rhEmpresa.simularRh(scanner);
                 break;
-            /* case 5:
-                ClubeCampo clubeCampo = new ClubeCampo();
-                clubeCampo.cadastrarMembro();
+            case 5:
+                ClubeDeCampo clubeCampo = new ClubeDeCampo();
+                clubeCampo.cadastrarFrequentadores(scanner);
                 break;
-            case 6:
+            /* case 6:
                 Calculadora calculadora = new Calculadora();
                 calculadora.calcular();
                 break;
