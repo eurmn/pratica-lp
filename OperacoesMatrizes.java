@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+/* 
+ * Exercício 7 - Operações Matrizes
+ * Aluno: Lucas Garrafielo - Matricula: 20220070609
+*/
 public class OperacoesMatrizes {
     private static void mediaAritmeticaAbaixoDiagonalPrincipal(int[][] matriz) {
         int soma = 0;

@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+/* 
+ * Exercício 2 - Eleição Sindical
+ * Aluno: Lucas Garrafielo - Matricula: 20220070609
+*/
 public class EleicaoSindical {
     public static void simularEleicao(Scanner scanner) {
         System.out.println("\nBem-vindo às eleições sindicais, aqui encontram-se 3 candidatos: A, B e C.");

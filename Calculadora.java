@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+/* 
+ * Exercício 6 - Eleição Sindical
+ * Aluno: Lucas Garrafielo - Matricula: 20220070609
+*/
 public class Calculadora {
     static float calcularDobro(float numero) {
         return numero * 2;
@@ -38,9 +42,6 @@ public class Calculadora {
     }
 
     public static void iniciarCalculadora(Scanner scanner) {
-        //  seguintes opções: 1 –
-        // Dobro, 2 – Triplo, 3 – Metade, 4 – Quadrado, 5 – Cubo, 6 – Raiz Quadrada, 7 – Raiz Cúbica, 8 –
-        // Módulo, 9 – Inverso e 0 – Sair do Programa
         System.out.println("\nEscolha qual operação deseja executar:");
         System.out.println("1. Dobro.");
         System.out.println("2. Triplo.");

@@ -26,6 +26,10 @@ class Pessoa {
     }
 }
 
+/* 
+ * Exercício 3 - Censo Altura
+ * Aluno: Lucas Garrafielo - Matricula: 20220070609
+*/
 public class CensoAltura {
     public static void simularCenso() {
         Pessoa[] pessoas = new Pessoa[] {

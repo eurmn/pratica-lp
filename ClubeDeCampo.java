@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+/* 
+ * Exercício 5 - Clube de Campo
+ * Aluno: Lucas Garrafielo - Matricula: 20220070609
+*/
 public class ClubeDeCampo {
     public static void cadastrarFrequentadores(Scanner scanner) {
         System.out.print("\nDigite o número de frequentadores: ");

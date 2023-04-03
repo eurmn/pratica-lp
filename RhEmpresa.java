@@ -1,6 +1,10 @@
 import java.util.Scanner;
 import java.util.Arrays;
 
+/* 
+ * Exercício 4 - RH Empresa
+ * Aluno: Lucas Garrafielo - Matricula: 20220070609
+*/
 public class RhEmpresa {
     public static void simularRh(Scanner scanner) {
         System.out.println(

@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+/* 
+ * Exercício 1 - Tabuada
+ * Aluno: Lucas Garrafielo - Matricula: 20220070609
+*/
 public class Tabuada {
     public static void fazerTabuada(Scanner scanner) {
         System.out.println("\nOs tipos de operação são:");

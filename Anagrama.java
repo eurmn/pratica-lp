@@ -1,6 +1,10 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
+/* 
+ * Exercício 8 - Anagrama
+ * Aluno: Lucas Garrafielo - Matricula: 20220070609
+*/
 public class Anagrama {
     public static void verificarAnagrama(Scanner scanner) {
         scanner.nextLine();
