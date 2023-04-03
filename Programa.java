@@ -42,11 +42,10 @@ public class Programa {
                 ClubeDeCampo clubeCampo = new ClubeDeCampo();
                 clubeCampo.cadastrarFrequentadores(scanner);
                 break;
-            /* case 6:
-                Calculadora calculadora = new Calculadora();
-                calculadora.calcular();
+            case 6:
+                Calculadora.iniciarCalculadora(scanner);
                 break;
-            case 7:
+            /* case 7:
                 OperacoesMatrizes operacoesMatrizes = new OperacoesMatrizes();
                 operacoesMatrizes.operarMatrizes();
                 break;
