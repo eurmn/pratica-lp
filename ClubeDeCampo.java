@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class ClubeDeCampo {
-    public void cadastrarFrequentadores(Scanner scanner) {
+    public static void cadastrarFrequentadores(Scanner scanner) {
         System.out.print("\nDigite o número de frequentadores: ");
         int numeroDeFrequentadores = scanner.nextInt();
 

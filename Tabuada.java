@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Tabuada {
-    public void fazerTabuada(Scanner scanner) {
+    public static void fazerTabuada(Scanner scanner) {
         System.out.println("\nOs tipos de operação são:");
 
         System.out.println("1. Soma;");

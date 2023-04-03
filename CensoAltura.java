@@ -27,7 +27,7 @@ class Pessoa {
 }
 
 public class CensoAltura {
-    public void simularCenso() {
+    public static void simularCenso() {
         Pessoa[] pessoas = new Pessoa[] {
             new Pessoa('M', 20, 1.80),
             new Pessoa('F', 19, 1.60),

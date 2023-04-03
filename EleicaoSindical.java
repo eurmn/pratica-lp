@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class EleicaoSindical {
-    public void simularEleicao(Scanner scanner) {
+    public static void simularEleicao(Scanner scanner) {
         System.out.println("\nBem-vindo às eleições sindicais, aqui encontram-se 3 candidatos: A, B e C.");
         
         System.out.print("Digite a quantidade de votos para o candidato A: ");

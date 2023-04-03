@@ -23,36 +23,29 @@ public class Programa {
 
         switch (questao) {
             case 1:
-                Tabuada tabuada = new Tabuada();
-                tabuada.fazerTabuada(scanner);
+                Tabuada.fazerTabuada(scanner);
                 break;
             case 2:
-                EleicaoSindical eleicaoSindical = new EleicaoSindical();
-                eleicaoSindical.simularEleicao(scanner);
+                EleicaoSindical.simularEleicao(scanner);
                 break;
             case 3:
-                CensoAltura censoAltura = new CensoAltura();
-                censoAltura.simularCenso();
+                CensoAltura.simularCenso();
                 break;
             case 4:
-                RhEmpresa rhEmpresa = new RhEmpresa();
-                rhEmpresa.simularRh(scanner);
+                RhEmpresa.simularRh(scanner);
                 break;
             case 5:
-                ClubeDeCampo clubeCampo = new ClubeDeCampo();
-                clubeCampo.cadastrarFrequentadores(scanner);
+                ClubeDeCampo.cadastrarFrequentadores(scanner);
                 break;
             case 6:
                 Calculadora.iniciarCalculadora(scanner);
                 break;
-            /* case 7:
-                OperacoesMatrizes operacoesMatrizes = new OperacoesMatrizes();
-                operacoesMatrizes.operarMatrizes();
+            case 7:
+                OperacoesMatrizes.operarMatrizes(scanner);
                 break;
             case 8:
-                Anagrama anagrama = new Anagrama();
-                anagrama.verificarAnagrama();
-                break; */
+                Anagrama.verificarAnagrama(scanner);
+                break;
             default:
                 System.out.println("Questão " + Integer.toString(questao) + " inválida!");
                 break;

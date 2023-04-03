@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.Arrays;
 
 public class RhEmpresa {
-    public void simularRh(Scanner scanner) {
+    public static void simularRh(Scanner scanner) {
         System.out.println(
                 "\nBem-vindo ao RH da empresa, aqui você pode calcular a média salarial e saber quem ganha acima ou abaixo da média.");
 
